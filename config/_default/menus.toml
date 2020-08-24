@@ -9,8 +9,8 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Teaching"
+  url = "#experience"
   weight = 20
 
 [[main]]
@@ -23,14 +23,26 @@
   url = "#featured"
   weight = 40
 
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[main]]
+name = "Curriculum Vitae"
+url = "files/CV-Soran Parang.pdf"
+weight = 50
+
+[[main]]
+name = "Research Experience"
+url = "files/Research Experience-Soran Parang.pdf"
+weight = 60
+
+[[main]]
+name = "News"
+url = "#posts"
+weight = 70
+
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 80
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+
